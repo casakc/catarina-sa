@@ -1,0 +1,17 @@
+.Intro p {
+font-size: 20px;
+font-weight: bold;
+margin: 20px 0px;
+}
+
+.table {
+    margin: 20px auto;
+}
+
+.col-3 {
+    border: 5px solid #C2b280;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
