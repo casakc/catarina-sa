@@ -1,17 +1,36 @@
-.Intro p {
-font-size: 20px;
+.App-main {
+   margin: 20px auto; 
+}
+
+.Intro h2 {
+font-size: 24px;
 font-weight: bold;
-margin: 20px 0px;
+margin: 20px auto;
 }
 
 .table {
     margin: 20px auto;
 }
 
-.col-3 {
-    border: 5px solid #C2b280;
-    font-size: 20px;
-    margin: 20px;
-    padding: 20px;
+.col-4 h3, .col-7 h3 {
+background-color: white;
+border: 5px ridge #C2b280;
+border-radius: 5px;
+color: navy;
+font-size: 20px;
+margin: 20px auto;
+padding: 20px;
+text-align: center;
 }
+
+.col-7 a {
+    color: navy;
+    text-decoration: none;
+}
+
+.col-7 a:hover {
+    color: #C2b280;
+}
+
+
 

@@ -1,7 +1,8 @@
 .App {
-  background-color: skyblue;
+  background: linear-gradient(to bottom, skyblue, white, #C2b280);
   border-radius: 5px;
   color: navy;
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0px auto;
   padding: 20px;
   text-align: center;
@@ -12,7 +13,7 @@
   border-radius: 5px;
   display: block;
   height: 150px;
-  width: 58%;
+  width: 73%;
 }
 
 .App-header {
@@ -22,8 +23,8 @@
   justify-content: center;
   }
 
-.App-header p {
-  font-size: 24px;
+.App-header h1 {
+  font-size: 26px;
   font-weight: bold;
   margin: 20px 0px;
 }
@@ -32,5 +33,4 @@
   color: white;
   text-decoration: none;
 }
-
 
