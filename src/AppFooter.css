@@ -9,9 +9,12 @@
 width: 100%;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content: flex-end;
 align-items: center;
+
+    margin: 5px 5px;
 }
+
 
 .btn {
     background-color: white;
@@ -32,7 +35,7 @@ align-items: center;
   }
 
 p {
-    font-size: large;
+    font-size: small;
     margin: 0px;
 }
   
