@@ -28,7 +28,7 @@ export default function AppFooter(props) {
                         href="https://github.com/casakc/catarina-sa"
                         target="_blank"
                         rel="noopener noreferrer" title="Please click to view the code of this webpage">GitHub</a> and <a className="App-link"
-                        href="https://github.com/casakc/catarina-sa"
+                        href="https://catarina-sa.netlify.app/"
                         target="_blank"
                         rel="noopener noreferrer">Netlify</a></small></p>
                 </div>
