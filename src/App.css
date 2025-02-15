@@ -35,28 +35,23 @@
   text-shadow: 0.4px 0.4px #216477 ;
 }
 
-
-@media (min-width: 1200px) {
-  .App-header h1 {
-    font-size: 22px;}
-  }
-  
-  @media (min-width: 992px) {
-    .App-header h1 {
-      font-size: 20px;}
-  }
-  
-   @media (min-width: 768px) {
-    .App-header h1 {
-      font-size: 18px;}
-  }
-          
-  @media (min-width: 576px) {
-    .App-header h1 {
-      font-size: 16px;}}
-    
-  @media (max-width: 575px) {
+@media (max-width: 575px) {
   .App-header h1 {
     font-size: 14px;}}
-  
 
+@media (min-width: 576px) {
+      .App-header h1 {
+        font-size: 20px;}}
+  
+@media (min-width: 768px) {
+    .App-header h1 {
+      font-size: 22px;}}
+          
+@media (min-width: 992px) {
+      .App-header h1 {
+        font-size: 24px;}}
+
+@media (min-width: 1200px) {
+      .App-header h1 {
+        font-size: 26px;}}
+      

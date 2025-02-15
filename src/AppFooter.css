@@ -32,38 +32,12 @@ align-items: center;
   }
 
 p {
+    font-size: large;
     margin: 0px;
 }
   
-
-
-
-@media (min-width: 1200px) {
-    .AppFooter {
-    font-size: 20px;
-    }
-    }
-    
-    @media (min-width: 992px) {
-    .AppFooter {
-    font-size: 18px;
-    }
-    }
-    
-     @media (min-width: 768px) {
-    .AppFooter {
-     font-size: 16px;
-    }
-    }
-            
-    @media (min-width: 576px) {
-    .AppFooter {
-    font-size: 14px;
-    }
-    }
-    
-    @media (max-width: 575px) {
-    .AppFooter {
+@media (max-width: 575px) {
+    .AppFooter p {
     font-size: 12px;
 }
 
@@ -80,6 +54,27 @@ p {
         padding: 5px 15px;
     }
      }
-    
-    
+
+@media (min-width: 576px) {
+        .AppFooter p {
+        font-size: 14px;
+        }
+        }
+
+@media (min-width: 768px) {
+    .AppFooter p {
+     font-size: 16px;
+    }
+    }
+            
+@media (min-width: 992px) {
+        .AppFooter p {
+        font-size: 18px;
+        }
+        }   
   
+@media (min-width: 1200px) {
+        .AppFooter p {
+        font-size: 20px;
+        }
+        }
