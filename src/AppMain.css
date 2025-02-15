@@ -1,4 +1,4 @@
-.App-main {
+.AppMain {
 background: linear-gradient(white, white, #d9c8b4);
 border-radius: 5px;
 padding-bottom: 20px;
@@ -40,4 +40,60 @@ margin: 0px;
 }
 
 
+@media (min-width: 1200px) {
+    .Intro h2 {
+    font-size: 22px;
+    }
+    
+    .col-4 h3, .col-6 h3, .col-4 a, .col-6 a {
+          font-size: 22px;  
+        }
+    }
+    
+    @media (min-width: 992px) {
+         .Intro h2 {
+        font-size: 22px;
+        }
+        
+        .col-4 h3, .col-6 h3, .col-4 a, .col-6 a {
+              font-size: 20px;  
+            }
+    }
+    
+    
+     @media (min-width: 768px) {   
+            .Intro h2 {
+        font-size: 16px;
+        }
+        
+        .col-4 h3, .col-6 h3, .col-4 a, .col-6 a {
+              font-size: 16px;  
+            }
+    }
+    
+            
+    @media (min-width: 576px) {
+            .Intro h2 {
+        font-size: 14px;
+        }
+        
+        .col-4 h3, .col-6 h3, .col-4 a, .col-6 a {
+              font-size: 14px;  
+            }
+    }
+    
+    @media (max-width: 575px) {
+    .Intro h2 {
+font-size: 14px;
+}
 
+.col-4 h3, .col-6 h3, .col-4 a, .col-6 a {
+      font-size: 14px;  
+    }
+    
+    .row {
+        flex-direction: column;
+    }
+    }
+    
+  

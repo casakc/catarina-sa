@@ -3,7 +3,7 @@ import './AppMain.css';
 
 export default function AppMain (props) {
     return (
-<div className="App-main">
+<div className="container AppMain">
   <div className="Intro">
     <h2>Examples of my Portfolio:</h2>
   </div>

@@ -7,7 +7,7 @@ import AppFooter from "./AppFooter";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container App">
 <div className="App-header">
         <img src={logo} className="App-logo" alt="Tranquil beach" title="Tranquil Beach" />
         <h1>

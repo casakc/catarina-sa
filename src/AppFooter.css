@@ -8,6 +8,7 @@
 .row {
 width: 100%;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
 }
@@ -35,9 +36,50 @@ p {
 }
   
 
-@media (max-width: 600px) {
-.App-footer {
-    font-size: small;
+
+
+@media (min-width: 1200px) {
+    .AppFooter {
+    font-size: 20px;
+    }
+    }
+    
+    @media (min-width: 992px) {
+    .AppFooter {
+    font-size: 18px;
+    }
+    }
+    
+     @media (min-width: 768px) {
+    .AppFooter {
+     font-size: 16px;
+    }
+    }
+            
+    @media (min-width: 576px) {
+    .AppFooter {
+    font-size: 14px;
+    }
+    }
+    
+    @media (max-width: 575px) {
+    .AppFooter {
+    font-size: 12px;
 }
+
+.row {
+    flex-direction: column;
 }
-        
+
+.col-1, .col-2, .col-5 {
+    margin: 5px auto;
+
+}
+    .btn {
+        font-size: small;
+        padding: 5px 15px;
+    }
+     }
+    
+    
+  
