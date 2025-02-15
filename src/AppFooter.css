@@ -1,3 +1,43 @@
-.App-footer p {
-    margin: 20px 0px;
+.AppFooter  {
+    background-color: #d9c8b4;
+    border-radius: 5px;
+    margin: 5px auto;
+    padding: 5px;
 }
+
+.row {
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.btn {
+    background-color: white;
+    border: 1px solid #216477;
+    border-radius: 5px;
+    color: #216477;
+}
+
+.btn:hover {
+    background-color: #216477;
+    border: 1px solid white;
+    color: white;
+}
+
+.col-2-img {
+    width: auto;
+    height: 37.39px; 
+  }
+
+p {
+    margin: 0px;
+}
+  
+
+@media (max-width: 600px) {
+.App-footer {
+    font-size: small;
+}
+}
+        
