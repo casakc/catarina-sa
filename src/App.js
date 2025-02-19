@@ -15,7 +15,7 @@ function App() {
         My name is <a className="App-link"
           href={cv}
           target="_blank"
-          rel="noopener noreferrer" title="Please click to view my Junior Front-End Developer diploma">Catarina</a>, welcome to my site!<br/>I am a Junior Front-End Developer based in the EU
+          rel="noopener noreferrer" title="Please click to view my CV and my Junior Front-End Developer diploma">Catarina</a>, welcome to my site!<br/>I am a Junior Front-End Developer based in the EU
         </h1>
       </div>
       <AppMain />
