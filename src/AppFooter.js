@@ -21,7 +21,7 @@ export default function AppFooter(props) {
                         </button>
                     </div>
                     <div className="col-2">
-                        <img src={logoOne} alt="LinkedIn logo" title="LinkedIn logo" className="col-2-img img-fluid" />
+                        <img src={logoOne} alt="LinkedIn logo" title="LinkedIn logo" className="col-2-img img-fluid deactivated-link" />
                     </div>
                     <div className="col-5">
                         <p><small>Coded by Catarina S-A and hosted on <a className="App-link"

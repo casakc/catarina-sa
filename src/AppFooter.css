@@ -34,6 +34,8 @@ align-items: center;
     height: 37.39px; 
   }
 
+ 
+
 p {
     font-size: small;
     margin: 0px;
@@ -50,8 +52,9 @@ p {
 
 .col-1, .col-2, .col-5 {
     margin: 5px auto;
-
+    width: 100%;
 }
+
     .btn {
         font-size: small;
         padding: 5px 15px;
@@ -61,6 +64,12 @@ p {
 @media (min-width: 576px) {
         .AppFooter p {
         font-size: 14px;
+        }
+
+        .col-1, .col-2, .col-5 {
+            margin: 5px auto;
+            width: 100%;
+        
         }
         }
 
@@ -74,7 +83,11 @@ p {
         .AppFooter p {
         font-size: 18px;
         }
-        }   
+
+        .col-1, .col-2, .col-5 {
+            margin: 5px auto;
+            width: auto;
+        }   }
   
 @media (min-width: 1200px) {
         .AppFooter p {
