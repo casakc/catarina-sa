@@ -25,21 +25,20 @@ export default function AppMain (props) {
           https://react-add-on-week-2.netlify.app/</a></h3></div>
           <div className="col-1"></div>
       </div>
-            <div className="row">
-            <div className="col-1"></div>
-      <div className="col-4"><h3>Python Example</h3></div>
-      <div className="col-6"><h3><a href="https://react-add-on-week-2.netlify.app/" target="_blank"
-          rel="noopener noreferrer">
-          </a><em><small>To be updated soon</small></em></h3></div>
-          <div className="col-1"></div>
-      </div>
-      <div className="row">
+         <div className="row">
       <div className="col-1"></div>
       <div className="col-4"><h3><a href="https://github.com/casakc/ai-add-on-week2" target="_blank"
           rel="noopener noreferrer" title="Please click to view the code of my example of a webpage with AI and JavaScript">AI + JavaScript Example</a></h3></div>
       <div className="col-6"><h3><a href="https://ai-add-on-week2.netlify.app/" target="_blank"
           rel="noopener noreferrer">
           https://ai-add-on-week2.netlify.app/</a></h3></div>
+          <div className="col-1"></div>
+      </div>
+      <div className="row">
+            <div className="col-1"></div>
+      <div className="col-10"><h3><a href="https://colab.research.google.com/drive/1HUJNdXxd6bxo0eS50b4NY-1K8HNeyt1H#scrollTo=dBvqLmAFJyBO&line=1&uniqifier=1" target="_blank"
+          rel="noopener noreferrer" title="Please click to view my coding example with Python + AI">Python + AI Example
+          </a></h3></div>
           <div className="col-1"></div>
       </div>
     </div>  
